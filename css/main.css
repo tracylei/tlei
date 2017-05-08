@@ -1,0 +1,10 @@
+main {
+    height: 100%;
+    padding: 3em 2em;
+    text-align: center;
+    background: #ffc73e;
+}
+
+body {
+    margin: 0;
+}
