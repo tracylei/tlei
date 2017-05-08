@@ -20,6 +20,13 @@ module.exports = {
             {   
                 test: /\.css$/,
                 loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })
+            },
+            {
+                test: /\.(ttf|eot|woff|svg)$/,
+                loader: 'file-loader',
+                options: {
+                    name: 'fonts/[name].[ext]',
+                },
             }
         ]
     },

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Red Velvet';
+  src: url('../fonts/redvelvet-regular-webfont.svg') format('svg'),
+    url('../fonts/redvelvet-regular-webfont.woff') format('woff'),
+    url('../fonts/redvelvet-regular-webfont.eot') format('embedded-opentype'),
+    url('../fonts/redvelvet-regular-webfont.ttf') format('truetype');
+}
+
 main {
     height: 100%;
     padding: 3em 2em;
@@ -7,4 +15,21 @@ main {
 
 body {
     margin: 0;
+}
+
+#intro {
+    font-family: "Red Velvet";
+    font-size: 40px;
+}
+
+.pink {
+    color: #CE1076;
+    font-family: "Red Velvet";
+    font-size: 40px;
+}
+
+#main-blurb {
+    text-align: left;
+    display: inline-block;
+    font-family: "Red Velvet";
 }

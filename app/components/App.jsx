@@ -32,7 +32,12 @@ class App extends React.Component {
             <div id="outer-container" style={{height: '100%'}}>
                 {this.getMenu()}
                 <main id="page-wrap">
-                    <h1> "Hello" </h1>
+                    <div id="main-blurb">
+                        <h1 id="intro"> Hello, I'm
+                            <span className="pink"> Tracy</span>. 
+                        </h1>
+                        <p> I am currently a 4th year Computer Science student at the University of Waterloo. </p>
+                    </div>
                 </main>
             </div>
         );
