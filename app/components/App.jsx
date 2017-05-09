@@ -1,5 +1,6 @@
 import React from 'react';
 import { elastic as Menu } from 'react-burger-menu'
+import SocialIcons from './SocialIcons.jsx'
 
 class App extends React.Component {
 
@@ -44,6 +45,9 @@ class App extends React.Component {
         return (
             <div id="outer-container" style={{height: '100%'}}>
                 {this.getMenu()}
+                <span id="icons">
+                    <SocialIcons />
+                </span>
                 <main id="page-wrap">
                     <div id="main-container">
                         <h1 id="intro"> Hello, I'm
