@@ -29,14 +29,17 @@ class App extends React.Component {
             <p id="main-blurb"> 
             I am currently a 4th year Computer Science student at the University of Waterloo. 
             Within the last few years, I've interned at AdRoll, LoyaltyOne, and Bank of America in both
-            data engineering and full-stack development roles. Through these experiences, I was able to 
+            data engineering and full-stack development roles. 
+            <br/>
+            <br/>
+            Through these experiences, I was able to 
             add a few things to my data toolkit such as Spark, Hadoop, and Storm. Feel free to poke around
             my website to learn more about me!
             <br/>
             <br/>
             I am currently seeking internship opportunities for September 2017 to April 2018 and full-time
             opportunities from August 2018 onwards. 
-            If you'd like to get in touch, please shoot me an <a href="mailto:tracylei.yq@gmail.com">email</a>!
+            If you'd like to get in touch, shoot me an <a href="mailto:tracylei.yq@gmail.com">email</a>!
             </p>
         );
     }

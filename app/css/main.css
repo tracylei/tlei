@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+html {
+    background: #ffc73e;
+}
+
 button {
     cursor: pointer;
 }
@@ -51,11 +55,10 @@ a {
 }
 
 #main-blurb {
-    text-align: justify;
-    font-family: "Lora", serif;
-    font-size: 16px;
-    font-weight: 300;
-    word-spacing: 1px;
+    text-align: left;
+    font-family: "Alegreya", serif;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .fa {
@@ -64,7 +67,6 @@ a {
 
 .fa-6x {
     font-size: 6em;
-    padding-bottom: 72px;
 }
 
 #icons {
@@ -78,4 +80,3 @@ a {
     border: none;
     font-size: 8px;
 }
-
