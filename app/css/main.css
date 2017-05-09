@@ -8,6 +8,7 @@
 
 main {
     height: 100%;
+    width: 100%;
     padding: 3em 2em;
     text-align: center;
     background: #ffc73e;
@@ -20,6 +21,8 @@ body {
 #intro {
     font-family: "Red Velvet";
     font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .pink {
@@ -28,8 +31,14 @@ body {
     font-size: 40px;
 }
 
-#main-blurb {
-    text-align: left;
+#main-container {
+    width: 50%;
     display: inline-block;
-    font-family: "Red Velvet";
+}
+
+#main-blurb {
+    text-align: justify;
+    font-family: "Lora", serif;
+    font-size: 18px;
+    font-weight: 300;
 }

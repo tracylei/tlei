@@ -6,7 +6,7 @@ class App extends React.Component {
         event.preventDefault();
     }
 
-    getMenu(){
+    getMenu() {
         var menuStateChange = function(state) {
             // Remove static sidebar when menu is open
             // Add it back when menu is closed
@@ -27,16 +27,33 @@ class App extends React.Component {
         );
     }
 
+    getMainBlurb() {
+        return (
+            <p id="main-blurb"> 
+            I am currently a 4th year Computer Science student at the University of Waterloo. 
+            Within the last few years, I've interned at AdRoll, LoyaltyOne, and Bank of America in both
+            data engineering and full-stack development roles. Through these experiences, I was able to 
+            add a few things to my data toolkit such as Spark, Hadoop, and Storm. Feel free to poke around
+            my website to learn more about me!
+            <br/>
+            <br/>
+            I am currently seeking internship opportunities for September 2017 to April 2018 and full-time
+            opportunities from August 2018 onwards. 
+            If you'd like to get in touch, please shoot me an <a href="mailto:tracylei.yq@gmail.com">email</a>!
+            </p>
+        );
+    }
+
     render() {
         return (
             <div id="outer-container" style={{height: '100%'}}>
                 {this.getMenu()}
                 <main id="page-wrap">
-                    <div id="main-blurb">
+                    <div id="main-container">
                         <h1 id="intro"> Hello, I'm
                             <span className="pink"> Tracy</span>. 
                         </h1>
-                        <p> I am currently a 4th year Computer Science student at the University of Waterloo. </p>
+                        {this.getMainBlurb()}
                     </div>
                 </main>
             </div>
