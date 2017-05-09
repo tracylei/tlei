@@ -13,8 +13,7 @@
   "dependencies": {
     "react": "^15.5.4",
     "react-burger-menu": "^2.0.1",
-    "react-dom": "^15.5.4",
-    "webpack-dev-server": "^2.4.5"
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

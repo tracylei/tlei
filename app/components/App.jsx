@@ -2,9 +2,6 @@ import React from 'react';
 import { elastic as Menu } from 'react-burger-menu'
 
 class App extends React.Component {
-    showSettings(event) {
-        event.preventDefault();
-    }
 
     getMenu() {
         var menuStateChange = function(state) {
@@ -19,10 +16,9 @@ class App extends React.Component {
                 outerContainerId={"outer-container"}
                 onStateChange={menuStateChange}
                 customBurgerIcon={ <img src="img/burger.svg" /> }>
-                    <a id="home" className="menu-item" href="/">Home</a>
-                    <a id="about" className="menu-item" href="/about">About</a>
-                    <a id="contact" className="menu-item" href="/contact">Contact</a>
-                    <a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>
+                    <img id="profile" src="img/profile.jpg" />
+                    <a id="home" className="menu-item" href="/">home</a>
+                    <a id="about" className="menu-item" href="/about">about</a>
             </Menu>
         );
     }

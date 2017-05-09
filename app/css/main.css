@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 #intro {
     font-family: "Red Velvet";
     font-size: 40px;
