@@ -1,6 +1,8 @@
 import React from 'react';
 import { elastic as Menu } from 'react-burger-menu'
 import SocialIcons from './SocialIcons.jsx'
+import profile from '../img/profile.jpg'
+import burger from '../img/burger.png'
 
 class App extends React.Component {
 
@@ -16,8 +18,8 @@ class App extends React.Component {
                 pageWrapId={"page-wrap"} 
                 outerContainerId={"outer-container"}
                 onStateChange={menuStateChange}
-                customBurgerIcon={ <img src="img/burger.svg" /> }>
-                    <img id="profile" src="img/profile.jpg" />
+                customBurgerIcon={ <img src={burger} /> }>
+                    <img id="profile" src={profile} />
                     <a id="home" className="menu-item" href="/">home</a>
                     <a id="about" className="menu-item" href="/about">about</a>
             </Menu>

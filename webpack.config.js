@@ -27,6 +27,13 @@ module.exports = {
                 options: {
                     name: 'fonts/[name].[ext]',
                 },
+            },
+            {
+                test: /\.(png|jpg|jpeg)$/,
+                loader: 'file-loader',
+                options: {
+                    name: 'img/[name].[ext]',
+                },
             }
         ]
     },
