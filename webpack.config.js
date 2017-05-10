@@ -32,7 +32,7 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: __dirname + '/build'
+        path: __dirname + '/doc'
     },
     plugins: [HTMLWebpackPluginConfig, ExtractTextPluginConfig]
 };

@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Raleway|Alegreya);@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);@font-face {
+  font-family: 'Red Velvet';
+  src: url(fonts/redvelvet-regular-webfont.svg) format('svg'),
+    url(fonts/redvelvet-regular-webfont.woff) format('woff'),
+    url(fonts/redvelvet-regular-webfont.eot) format('embedded-opentype'),
+    url(fonts/redvelvet-regular-webfont.ttf) format('truetype');
+}
+
+main {
+    height: 100%;
+    background: #ffc73e;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    background: #ffc73e;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: #CE1076;
+}
+
+#intro {
+    font-family: "Red Velvet";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pink {
+    color: #CE1076;
+    font-family: "Red Velvet";
+    font-size: 40px;
+}
+
+#main-container {
+    width: 50%;
+    display: table;
+    margin: auto;
+    padding: 3em 2em;
+}
+
+#main-blurb {
+    text-align: left;
+    font-family: "Alegreya", serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.fa {
+    color: #CE1076;
+}
+
+.fa-6x {
+    font-size: 6em;
+}
+
+#icons {
+    position: fixed;
+    left: 12px;
+    top: 190px; //82px of burger + 72px + 36px
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-size: 8px;
+    z-index: 1;
+}
+
+#sidebar {
+    position: fixed;
+    width: 72px;
+    height: 100%;
+    background: black;
+}
+
+#main-content {
+    margin-left: 72px;
+}/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 50px;
+  height: 40px;
+  left: 12px;
+  top: 82px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: black;
+  padding: 2.5em 2.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: black;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: black;
+  padding: 0.8em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    color: white;
+    font-family: "Red Velvet";
+    padding: 5px;
+    text-decoration: none;
+}
+
+#profile {
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 95px;
+}
+
