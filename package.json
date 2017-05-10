@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Personal Website",
   "main": "app/index.jsx",
+  "homepage": "https://tracylei.github.io/tlei",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
